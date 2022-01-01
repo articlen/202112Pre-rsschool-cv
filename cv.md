@@ -15,7 +15,7 @@ Graduated from:
 * Minsk Automobile College, specialty - mechanical technician.
 * BSUIR with a degree in Information Technology and Management Engineer.
 5. Code examples:\
-CSS
+CSS 
 ~~~ CSS
 <style>
   .border{
@@ -27,7 +27,7 @@ CSS
   }
   </style>
   <p class="border" id="no-border">оторый имеет «вес» 1000, а это значит</p>
-~~~
+~~~ 
 HTML
 ~~~ HTML
 <header>
