@@ -1,21 +1,26 @@
 .body {
     font-family: 'Roboto', sans-serif;
     
-}
+      position:relative;
+      max-width:1680px;
+      margin: 0 auto;
+      }    
 * {
     box-sizing: border-box;
 }
 .header {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 0px 110px 115px;
     background-color: rgb(155, 238, 224);
 }
 .main {
-    border: 1px solid rgb(49, 9, 224);
-    padding: 0px 110px 300px;
+    /* border: 1px solid rgb(49, 9, 224); */
+    padding: 0px 110px 20px;
     background-color: rgba(188, 233, 225, 0.39);
-   
-}
+  }
+/* .footer { */
+    /* border: 1px solid rgb(3, 92, 33); */
+/* } */
 .font-size {
     font-size: 30px
 }
@@ -28,9 +33,7 @@
     .colors {
       background-color: var(--main-blue);
     }
-.footer {
-    border: 1px solid rgb(3, 92, 33);
-}
+
 .container {
     position: relative;
     top: 100px;
@@ -55,8 +58,14 @@
     .happy {
         animation: color-change 10s infinite;
     }
-
-
+.size-cod {
+  font-size: 20px
+}
+.img-position{
+  position: relative;
+  top: -200px;
+   left: 1250px;
+}
 
 
 
