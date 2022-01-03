@@ -1,49 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="device-width, device-height, user-scalable=yes">
-    <title>My CV</title>
+    <title>cv</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="assets/favicon .ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap">
+    <style>
+        figure {
+            background: #b4d7db;
+            /* Цвет фона */
+            padding: 10px;
+            /* Поля вокруг */
+            display: block;
+            /* Блочный элемент */
+            width: 150px;
+            /* Ширина */
+            float: left;
+            /* Блоки выстраиваются по горизонтали */
+            margin: 0 10px 10px 0;
+            /* Отступы */
+            text-align: center;
+            /* Выравнивание по центру */
+        }
+
+        figcaption {
+            color: #fff;
+            /* Цвет текста */
+        }
+    </style>
 </head>
-<body>
-    <header class= "header">        
-        <img src= "https://rs.school/images/rs_school_js.svg" alt= "RSCHOOL" width="50" height="50">
-       
-        <span align= "center"><h1>First Name, Last Name:Ihar Navoichyk</h1></span>
-        
-        <div class= "container">
-            <div class="flex1"><h2>Info</h2> </div>
-            <div class="flex2"><h3>email:igor9os4a@gmail.com</h3></div>
-            <div class="flex3"><h3>Phone Number: +375291812363</h3></div>
-           
-        </div>
+
+<body class="body">
+    <header class="header">
+
         <figure class="fotopading">
-         <img src= "https://klike.net/uploads/posts/2019-03/1551512926_36.jpg" alt= "avatar" width="150" >
-        </figure> 
-        <p>dfdfdfdfbdg</p>
-        <div class="header">
-            contact:
-            email: 
+            <img src="https://rs.school/images/rs_school_js.svg" alt="RSCHOOL" width="50" height="50">
+            <img src="https://klike.net/uploads/posts/2019-03/1551512926_36.jpg" alt="avatar" height="120">
+
+        </figure>
+        <span align="center">
+            <h1>First Name, Last Name:Ihar Navoichyk</h1>
+        </span>
+
+        <div class="container">
+            <div>
+                <h3 class="happy">Contact</h3>
+            </div>
+            <div class="flex2">
+                <h2>email:igor9os4a@gmail.com</h2>
+            </div>
+            <div class="flex3">
+                <h2>Phone Number: +375291812363</h2>
+            </div>
+
         </div>
-                
-    </header>   
+
+
+    </header>
+    </header>
     <main class="main">
-        main
-    </main> 
+        <ol class= "font-size" align="center">
+            <li class="color"> Summary:</li><br>
+                <div> 
+                Work as an engineer for the repair of electronic equipment. I wanted to learn programming for further
+                employment in the field of IT. I was advised to school RS. I decided to start studying with JScript. I
+                will try to study the courses, although I have little free time. Achievement of the set goals of the
+                goals allows you to plan for the future.
+                </div>
+            </li><br>
+            <li class="color">Skills:</li><br>
+                <div>
+                     Interested in C #, want to learn JScript.
+                </div>               
+            </li><br>
+            <li class="color">Graduated from educational institutions:</li><br>
+                <ul>
+                    <li>
+                        Automobile College, specialty - mechanical technician.
+                    </li>
+                    <li>
+                        BSUIR with a degree in Information Technology and Management Engineer.
+                    </li>
+                </ul><br>
+
+            <li class="color">Code examples:</li>
+        </ol><br>
+
+        <code>
+
+
+        </code>
+    </main>
     <footer class="footer">
-        
-        <div>
-            footer<br>
-            <a href="https://github.com/articlen/rsschool-cv.git">GitHub</a><br>
-            <a href="https://articlen.github.io/rsschool-cv/cv">Markdown</a><br>
-            <a href="https://rs.school/js/">RSSCHOOL</a>
-        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://github.com/articlen/rsschool-cv.git">GitHub</a>
+                </li>
+                <li>
+                    <a href="https://articlen.github.io/rsschool-cv/cv">Markdown</a>
+                </li>
+                <li>
+                    <a href="https://rs.school/js/">RSSCHOOL</a>
+                </li>
+                <li>
+                    <a href="https://articlen.github.io/rsschool-cv/">CV</a>
+                </li>
+                <li>
+                    <img src="data:image/jpeg;base64,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"
+                        alt="Discord" width="50" height="50">
+                    <span>IgorN#3089</span>
+                </li>
+            </ul>
+        </nav>
+        <h2>2022</h2>
 
     </footer>
 
-    
+
 </body>
+
 </html>
