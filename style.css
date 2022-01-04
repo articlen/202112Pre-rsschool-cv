@@ -1,71 +1,84 @@
 .body {
-    font-family: 'Roboto', sans-serif;
-    
-      position:relative;
-      max-width:1680px;
-      margin: 0 auto;
-      }    
+  font-family: 'Roboto', sans-serif;
+  
+    position:relative;
+    max-width:1680px;
+    margin: 0 auto;
+    }    
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .header {
-    /* border: 1px solid red; */
-    padding: 0px 110px 115px;
-    background-color: rgb(155, 238, 224);
+  /* border: 1px solid red; */
+  padding: 0px 110px 115px;
+  background-color: rgb(155, 238, 224);
 }
 .main {
-    /* border: 1px solid rgb(49, 9, 224); */
-    padding: 0px 110px 20px;
-    background-color: rgba(188, 233, 225, 0.39);
-  }
+  /* border: 1px solid rgb(49, 9, 224); */
+  padding: 0px 110px 20px;
+  background-color: rgba(188, 233, 225, 0.39);
+}
 /* .footer { */
-    /* border: 1px solid rgb(3, 92, 33); */
+  /* border: 1px solid rgb(3, 92, 33); */
 /* } */
 .font-size {
-    font-size: 30px
+  text-align: center;
+  font-size: 30px
+  
 }
 :root {
-    --main-blue: #c0e711;
-    }
-    .color {
-      background-color: var(--main-blue);
-    }
-    .colors {
-      background-color: var(--main-blue);
-    }
-
-.container {
-    position: relative;
-    top: 100px;
-    left: 100px;
+  --main-blue: #c0e711;
+  }
+  .color {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: var(--main-blue);
+  }
+  .colors-up {
+    margin-left: 100px;
+    background-color: var(--main-blue);
+  }
+  .colors-down {
     
-}
- @keyframes color-change {
-    0% {
-      color: blue;
-    }
+    background-color: var(--main-blue);
+  }
+.container {
+  position: relative;
+  top: 100px;
+  left: 100px;
   
-    30% {
-      color: green;
-    }
-    60% {
-      color: yellow;
-    }
-    100% {
-        color: blue;
-    }
-    }
-    .happy {
-        animation: color-change 10s infinite;
-    }
+}
+@keyframes color-change {
+  0% {
+    color: blue;
+  }
+
+  30% {
+    color: green;
+  }
+  60% {
+    color: yellow;
+  }
+  100% {
+      color: blue;
+  }
+  }
+  .happy {
+      animation: color-change 10s infinite;
+  }
 .size-cod {
-  font-size: 20px
+  font-size: 25px;
+
 }
 .img-position{
-  position: relative;
-  top: -200px;
-   left: 1250px;
+position: relative;
+top: -200px;
+ left: 1250px;
 }
-
-
+.position-center {
+text-align: center;
+}
+.position-footer{
+margin-left: 100px;
+}
 
